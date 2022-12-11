@@ -22,6 +22,6 @@ def findPasswd(password):
         pwnd_dict[pwnd_hash[0]] = pwnd_hash[1]
 
     if sha_post in pwnd_dict.keys():
-        print("Je v DB {0} krát".format(pwnd_dict[sha_post]))
+        return pwnd_dict[sha_post]
     else:
-        print("Heslo není v DB")
+        return False
