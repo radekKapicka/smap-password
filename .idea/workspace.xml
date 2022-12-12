@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5c4af0-94f1-4d1d-aedf-006cf55f6be2" name="Changes" comment="commit passwordChech slovník neuronky">
-      <change afterPath="$PROJECT_DIR$/source-files/outputFiles/userPass.txt" afterDir="false" />
+    <list default="true" id="ec5c4af0-94f1-4d1d-aedf-006cf55f6be2" name="Changes" comment="commit save to zip file">
+      <change afterPath="$PROJECT_DIR$/source-files/outputFiles/userPass.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/wordDictAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source-files/parseString.py" beforeDir="false" afterPath="$PROJECT_DIR$/source-files/parseString.py" afterDir="false" />
     </list>
@@ -66,7 +67,7 @@
       <updated>1669886203216</updated>
       <workItem from="1669886204776" duration="16096000" />
       <workItem from="1670751520776" duration="11038000" />
-      <workItem from="1670770930564" duration="3254000" />
+      <workItem from="1670770930564" duration="7519000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1669886741237</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670764039344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit save to zip file">
+      <created>1670836786285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670836786285</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,13 +134,15 @@
     <MESSAGE value="commit parse" />
     <MESSAGE value="commit pwndAPI connection" />
     <MESSAGE value="commit passwordChech slovník neuronky" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit passwordChech slovník neuronky" />
+    <MESSAGE value="commit save to zip file" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit save to zip file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/smap_password$parse_string.coverage" NAME="parse-string Coverage Results" MODIFIED="1669899643440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
     <SUITE FILE_PATH="coverage/smap_password$read_db.coverage" NAME="read-db Coverage Results" MODIFIED="1669901489106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
+    <SUITE FILE_PATH="coverage/smap_password$wordDictAPI.coverage" NAME="wordDictAPI Coverage Results" MODIFIED="1670840920933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
     <SUITE FILE_PATH="coverage/smap_password$strengthCheck.coverage" NAME="strengthCheck Coverage Results" MODIFIED="1670760676064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
     <SUITE FILE_PATH="coverage/smap_password$PwndAPI.coverage" NAME="PwndAPI Coverage Results" MODIFIED="1670769381649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
-    <SUITE FILE_PATH="coverage/smap_password$parseString.coverage" NAME="parseString Coverage Results" MODIFIED="1670773058943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
+    <SUITE FILE_PATH="coverage/smap_password$parseString.coverage" NAME="parseString Coverage Results" MODIFIED="1670844917545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
   </component>
 </project>
