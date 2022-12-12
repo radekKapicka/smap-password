@@ -1,6 +1,5 @@
 import requests
 
-
 def dictWord(word):
     url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + word
 

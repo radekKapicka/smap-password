@@ -4,11 +4,91 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5c4af0-94f1-4d1d-aedf-006cf55f6be2" name="Changes" comment="commit save to zip file">
-      <change afterPath="$PROJECT_DIR$/source-files/outputFiles/userPass.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source-files/wordDictAPI.py" afterDir="false" />
+    <list default="true" id="ec5c4af0-94f1-4d1d-aedf-006cf55f6be2" name="Changes" comment="commit word dictionary API + cosmetic output">
+      <change afterPath="$PROJECT_DIR$/source-files/czechWordDictAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/outputFiles/patternPass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/README_modular.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/base_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/AU_place_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/BR_area_codes_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/BR_soccer_teams_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_colour_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_emotion_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_family_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_religion_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_road_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_season_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_sport_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/DE_vehicle_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_colour_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_emotion_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_explicit_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_family_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_military_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_religion_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_road_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_season_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_sport_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_vehicle_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/EN_violence_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_area_codes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_colour_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_date_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_emotion_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_family_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_hashcat_mask_generator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_season_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/FR_windows_complexity_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/NL_colour_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/NL_date_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/NL_season_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/PTBR_colour_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/PTBR_date_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/PTBR_emotion_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/PTBR_explicit_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/PTBR_family_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/PTBR_religion_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/PTBR_season_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/RU_russia_cities_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/US_area_codes_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/US_state_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/US_zip_codes_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/basic.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/date_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/email_names.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/external_list_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/frequency.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/hashcat_mask_generator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/special_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/usernames.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_available/windows_complexity_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_enabled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_enabled/01basic.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/checkers_enabled/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/horizbar.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/layouts/fr.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/layouts/keypad.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/layouts/mbp.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/layouts/ptbr.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/layouts/tr_q.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/layouts/uk.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/layouts/us.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/list_checker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/os.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/passpat.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/pipal.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/pipal_getoptlong.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/progressbar.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/spliters_available/colon_user_pass.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/spliters_available/kippo_file.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pattern/pipal-master/spliters_available/pipe_pass_user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source-files/pwdPattern.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source-files/filename.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source-files/outputFiles/userPass.zip" beforeDir="false" afterPath="$PROJECT_DIR$/source-files/outputFiles/userPass.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source-files/parseString.py" beforeDir="false" afterPath="$PROJECT_DIR$/source-files/parseString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source-files/wordDictAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/source-files/wordDictAPI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +147,7 @@
       <updated>1669886203216</updated>
       <workItem from="1669886204776" duration="16096000" />
       <workItem from="1670751520776" duration="11038000" />
-      <workItem from="1670770930564" duration="7519000" />
+      <workItem from="1670770930564" duration="22048000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1669886741237</created>
@@ -111,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670836786285</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit word dictionary API + cosmetic output">
+      <created>1670845007378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670845007378</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,14 +222,18 @@
     <MESSAGE value="commit pwndAPI connection" />
     <MESSAGE value="commit passwordChech slovník neuronky" />
     <MESSAGE value="commit save to zip file" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit save to zip file" />
+    <MESSAGE value="commit word dictionary API + cosmetic output" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit word dictionary API + cosmetic output" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/smap_password$parse_string.coverage" NAME="parse-string Coverage Results" MODIFIED="1669899643440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
+    <SUITE FILE_PATH="coverage/smap_password$pwdPattern.coverage" NAME="pwdPattern Coverage Results" MODIFIED="1670864149381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
     <SUITE FILE_PATH="coverage/smap_password$read_db.coverage" NAME="read-db Coverage Results" MODIFIED="1669901489106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
     <SUITE FILE_PATH="coverage/smap_password$wordDictAPI.coverage" NAME="wordDictAPI Coverage Results" MODIFIED="1670840920933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
-    <SUITE FILE_PATH="coverage/smap_password$strengthCheck.coverage" NAME="strengthCheck Coverage Results" MODIFIED="1670760676064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
+    <SUITE FILE_PATH="coverage/smap_password$czechWordDictAPI.coverage" NAME="czechWordDictAPI Coverage Results" MODIFIED="1670856176968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
+    <SUITE FILE_PATH="coverage/smap_password$test.coverage" NAME="test Coverage Results" MODIFIED="1670855869492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
+    <SUITE FILE_PATH="coverage/smap_password$strengthCheck.coverage" NAME="strengthCheck Coverage Results" MODIFIED="1670856638606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
     <SUITE FILE_PATH="coverage/smap_password$PwndAPI.coverage" NAME="PwndAPI Coverage Results" MODIFIED="1670769381649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
-    <SUITE FILE_PATH="coverage/smap_password$parseString.coverage" NAME="parseString Coverage Results" MODIFIED="1670844917545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
+    <SUITE FILE_PATH="coverage/smap_password$parseString.coverage" NAME="parseString Coverage Results" MODIFIED="1670866937554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source-files" />
   </component>
 </project>
